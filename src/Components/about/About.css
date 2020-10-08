@@ -1,0 +1,24 @@
+.about-text h2 {
+    font-size: 45px;
+    color: rgba(32, 44, 69, 1);
+}
+
+.about-text p {
+    font-size: 16px;
+    color: rgba(32, 44, 69, 1);
+    margin-bottom: 25px;
+}
+
+.detail {
+    color: white;
+    background: rgba(32, 44, 69, 1);
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.register {
+    color: white;
+    background: rgba(230, 46, 77, 1);
+    font-size: 14px;
+    padding: 10px 20px;
+}

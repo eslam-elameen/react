@@ -1,0 +1,22 @@
+.why-us {
+    background: rgba(247, 247, 247, 1);
+}
+
+.why-text h2 {
+    color: rgba(32, 44, 69, 1);
+}
+
+.why-prargraph {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.why-prargraph p {
+    font-size: 16px;
+    color: rgba(32, 44, 69, 1);
+    margin-bottom: 25px;
+}
+
+.card-body {
+    border: none;
+}

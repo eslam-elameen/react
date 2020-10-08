@@ -1,0 +1,26 @@
+.teacher-header h2::after {
+    content: '';
+    width: 45px;
+    height: 2px;
+    background-color: rgba(230, 46, 77, 1);
+    display: block;
+}
+
+.teacher-header span {
+    color: rgba(230, 46, 77, 1);
+}
+
+.card-title {
+    color: rgba(230, 46, 77, 1);
+}
+
+.card-text {
+    font-size: 14px;
+    color: rgba(32, 44, 69, 1);
+}
+
+.social-icons li i {
+    font-size: 30px;
+    cursor: pointer;
+    color: rgba(32, 44, 69, 1);
+}

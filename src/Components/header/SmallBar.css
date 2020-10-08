@@ -1,0 +1,29 @@
+.bg {
+    background-color: rgba(230, 46, 77, 1);
+}
+
+.menu-container {
+    justify-content: space-between;
+}
+
+.menu li {
+    /* padding: 15px 10px 3px 10px; */
+    color: white;
+    font-size: 13px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.right-menu li {
+    color: white;
+    font-size: 13px;
+    padding: 0 15px;
+}
+
+.right-menu li i {
+    cursor: pointer;
+}
+
+.right-menu li.cart {
+    padding: 0 0 0 20px;
+}

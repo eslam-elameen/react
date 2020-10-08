@@ -1,0 +1,39 @@
+.latest-header h2::after {
+    content: '';
+    width: 45px;
+    height: 2px;
+    background-color: rgba(230, 46, 77, 1);
+    display: block;
+}
+
+.latest-header span {
+    color: rgba(230, 46, 77, 1);
+}
+
+
+/* child style */
+
+.social-container {
+    background: rgba(32, 44, 69, 0.9);
+    width: 20%;
+    height: 59%;
+    top: 0;
+    position: absolute;
+    right: 15px;
+    color: white;
+}
+
+.social {
+    padding-top: 20px
+}
+
+.social ul li {
+    font-size: 30px;
+}
+
+.card-body span {
+    bottom: 30px;
+    font-size: 10px;
+    position: absolute;
+    right: 28px;
+}

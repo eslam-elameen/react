@@ -1,0 +1,24 @@
+.hero-cards-container {
+    margin-top: -65px;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    background: transparent;
+}
+
+.card-body {
+    border: 1px solid rgba(238, 238, 238, 1);
+    background: rgba(247, 247, 247, 1);
+}
+
+.read-more {
+    color: white;
+    background: rgba(32, 44, 69, 1);
+    margin-top: 15px;
+    font-size: 13px;
+}
