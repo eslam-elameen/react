@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./NavBar.css"
 export default class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -7,7 +7,7 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg nav-bg">
         <button
           className="navbar-toggler"
           type="button"
