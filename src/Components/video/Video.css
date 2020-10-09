@@ -7,7 +7,7 @@
 }
 
 .video {
-    background: url(/static/media/graduation.a7443dd1.jpg);
+    background: url('../../assets/video/graduation.jpg');
     background-size: contain;
     z-index: 2;
     position: absolute;

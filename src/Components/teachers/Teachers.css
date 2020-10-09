@@ -8,6 +8,7 @@
 
 .teacher-header span {
     color: rgba(230, 46, 77, 1);
+    font-size: inherit;
 }
 
 .card-title {

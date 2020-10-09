@@ -30,7 +30,7 @@ export default class Video extends React.Component {
               aria-hidden="true"
             >
               <div className="modal-dialog" role="document">
-                <div className="modal-content">
+                <div className="modal-content ">
                   <div className="modal-header">
                     <button
                       type="button"
