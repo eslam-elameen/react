@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Logo.css"
 import logo from "../../assets/logo/logo.png";
 export default class LogoBar extends React.Component {
   constructor(props) {
@@ -8,13 +9,13 @@ export default class LogoBar extends React.Component {
   render() {
     return (
       <div>
-        <div className="container ">
+        <div className="container-fluid logo-section pt-4 pb-4 ">
           <div className="row d-flex">
-            <div className="logo-section col-md-5">
+            <div className="logo-section col-md-3 ">
               <img src={logo} alt="logo" />
             </div>
             {/* <div className="d-flex col-m-7"> */}
-              <div className="call-us d-flex col-md-4">
+              <div className="call-us d-flex col-md-3 offset-3">
                 <div className="call-icon">
                   <i className="fas fa-phone-square-alt"></i>
                 </div>
@@ -29,7 +30,7 @@ export default class LogoBar extends React.Component {
                 </div>
                 <div className="clock-text">
                   <p>WE ARE OPEN!</p>
-                  <p>Mon-Fri 8:00-16:00</p>
+                  <p className="date">Mon-Fri 8:00-16:00</p>
                 </div>
               </div>
             {/* </div> */}

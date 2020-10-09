@@ -122,7 +122,11 @@ hr {
     font-size: 20px;
 }
 
-.subscribe-btn {
+.subscribe {
+    position: relative;
+}
+
+.subscribe .subscribe-btn {
     background: rgba(242, 24, 79, 1);
     color: white;
 }

@@ -108,14 +108,14 @@ export default class Footer extends React.Component {
           </div>
           <hr />
           <div className="row justify-content-between">
-              <div className="call-us">
+              <div className="call-us col-md-3">
                 <h5>Call Us Now</h5>
                 <ul>
                   <li><a href="tel:+61 3 1234 5678">+61 3 1234 5678</a></li>
                   <li><a href="tel:+12 3 1234 5678">+12 3 1234 5678</a></li>
                 </ul>
               </div>
-              <div className="contact-us">
+              <div className="contact-us col-md-2">
               <h5>Contact With Us </h5>
                 <ul className="d-flex justify-content-between">
                   <li><a href=""><i className="fab fa-facebook-square"></i></a></li>
@@ -126,11 +126,12 @@ export default class Footer extends React.Component {
                   <li><a href=""><i className="fab fa-pinterest-square"></i></a></li>
                 </ul>
               </div>
-              <div className="subscribe d-flex">
+              <div className="subscribe col-md-5 offset-2">
+                <h5>Subscribe US</h5>
+                <div className="d-flex">
                 <input type="email" className="form-control " placeholder="Your Email" />
-                <span className="input-group-btn">
                   <button className="btn subscribe-btn ">SUBSCRIBE</button>
-                </span>
+                </div>
               </div>
             </div>
           </div>
